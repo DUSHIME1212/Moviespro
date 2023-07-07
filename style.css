@@ -65,7 +65,7 @@ main {
 }
 
 .img {
-    width: 100/3%;
+    width: 100/3 %;
     height: auto;
     object-fit: cover;
 }
