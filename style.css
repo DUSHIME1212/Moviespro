@@ -52,7 +52,7 @@ main {
 }
 
 .movie {
-    width: 100%;
+    width: 100/3 %;
     height: auto;
     object-fit: cover;
     margin: 1rem;
