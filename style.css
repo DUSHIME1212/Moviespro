@@ -78,7 +78,8 @@ img {
 }
 
 .movie-info {
-    color: #eee;
+    color: rgba(238, 238, 238, 0.8); /* Solid color with transparency */
+    backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
     justify-content: space-between;
