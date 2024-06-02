@@ -6,7 +6,6 @@ const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 
-// Show popular movies on page load
 getMovies(API_URL);
 
 async function getMovies(url) {
@@ -16,7 +15,6 @@ async function getMovies(url) {
 }
 
 function showMovies(movies) {
-  // Clear main container before showing new movies
   main.innerHTML = '';
   movies.forEach((movie) => {
     const { title, poster_path, vote_average, overview } = movie;
@@ -24,7 +22,7 @@ function showMovies(movies) {
     movieEl.classList.add('movie');
     movieEl.innerHTML = `
         <img src="${IMG_PATH + poster_path}" loading="lazy" alt="${title}">
-        <div class="movie-info">
+        <div class="movie-info text-5xl font-medium">
             <h3>${title}</h3>
             <span class="${getClassByRate(vote_average)}">${vote_average}</span>
         </div>

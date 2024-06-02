@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
 
 :root {
-    --primary-color: rgb(0, 2, 127);
-    --secondary-color: rgb(63, 0, 252);
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(227, 227, 227);
     color: black;
     /* fallback color */
 }
 
 * {
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 body {
@@ -19,40 +20,48 @@ body {
 }
 
 header {
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 1rem 0.5rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: var(--primary-color);
+    
 }
 h1{
     justify-content: center;
-    color: #eee;
-    margin-left: 20px;
+    color: #ffffff;
 }
 .search {
-    background-color: transparent;
-    border: 2px solid blanchedalmond;
+    background-color: #ffffff8b;
+    /* border: 2px solid blanchedalmond; */
     border-radius: 10px;
-    font-family: 'Vivaldi';
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: .5rm 1rem;
-    color: #fff;
+    color: #ffffff;
     padding: 5px 10px;
+
 }
 
 .search::placeholder {
     margin-right: 20px;
-    color: #fff;
+    color: #000000;
 }
 
 .search:focus {
     outline: none;
     background-color: var(--secondary-color);
+    outline: none;
 }
 
 main {
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
 .movie {
@@ -66,7 +75,7 @@ main {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 16px;
 }
 
 img {
@@ -78,7 +87,7 @@ img {
 }
 
 .movie-info {
-    color: rgba(238, 238, 238, 0.8); /* Solid color with transparency */
+    color: #ffffffa4; /* Solid color with transparency */
     backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
@@ -97,6 +106,10 @@ img {
     border-radius: 3px;
     font-weight: bolder;
 }
+.movie-info  h3{
+    font-size: 4rem;
+    font-weight: bold;
+}
 
 /* colors */
 .movie-info span.greenyellow {
@@ -113,7 +126,8 @@ img {
 
 
 .overview {
-    background-color: #fff;
+    background-color: #ffffff90;
+    backdrop-filter: blur(20px);
     padding: 2rem;
     position: absolute;
     left: 0;
