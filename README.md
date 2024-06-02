@@ -72,5 +72,5 @@ Your Name - [DUSHIME Aime] - [your.email@example.com]
 
 ## Project Link: 
 ```
-https://github.com/DUSHIME1212/movies-pro\
+https://github.com/DUSHIME1212/movies-pro
 ```
