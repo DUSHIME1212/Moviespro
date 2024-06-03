@@ -81,7 +81,7 @@ main {
 img {
     height: 100%;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-position: 0%;
     width: fit-content;
 }
