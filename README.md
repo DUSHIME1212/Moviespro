@@ -52,7 +52,7 @@ Replace YOUR_API_KEY with your actual OMDb API key:
 
 ## javascript
 ```
-const API_KEY = 'YOUR_API_KEY';
+const API_KEY = '[API-KEY](https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=8824473926d37dbf91ff430be012d6c6&page=1)';
 ```
 ## Contributing
 
@@ -68,7 +68,7 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
-Your Name - [DUSHIME Aime] - [your.email@example.com]
+Your Name - [DUSHIME Aime] - hdushime@alustudent.com]
 
 ## Project Link: 
 ```
