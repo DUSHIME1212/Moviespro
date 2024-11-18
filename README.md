@@ -68,7 +68,7 @@ Open a Pull Request
 Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
-Your Name - [DUSHIME Aime] - hdushime@alustudent.com]
+[DUSHIME Aime] - hdushime@alustudent.com]
 
 ## Project Link: 
 ```
